@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  font-family: Poppins, sans-serif;
+  font-size: 1.2rem;
+  color: black;
+  min-height: 100vh;
+}
+
+.full-height-grow {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.main-nav a:hover {
+  color: #adadad;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  flex-grow: 1;
+}
+
+.btn {
+  background-color: #ff8923;
+  padding: 1rem 4rem !important;
+  border-radius: 1.75rem !important;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ffa04d;
+}
+
+.btn:focus {
+  background-color: #ffbb80;
+}
+
+.colorway {
+  position: absolute;
+  width: 70vw;
+  top: -10vh;
+  right: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.home-main-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.home-main-section .img-wrapper {
+  flex-grow: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+
+.home-main-section .computer-image {
+  background-image: url(assets/undraw_pair_programming_njlp.png);
+  flex-grow: 1;
+  max-height: 70vh;
+  min-width: 30vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.home-main-section .call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem;
+  align-self: center;
+}
+
+.btn-wave {
+  color: white;
+  background-color: #3d37f1;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 2.5rem;
+  margin-left: 1.5rem;
+}
+
+.btn-wave:hover {
+  background-color: #5d58f3;
+}
+
+.btn-wave:focus {
+  background-color: #8b88f7;
+}
+
+.wave img {
+  width: 1.2vw;
+  margin-right: 0.5rem;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 3em;
+  margin-bottom: 0;
+  color: #534d4d;
+}
+
+.subtitle {
+  font-weight: 200;
+  font-size: 0.9em;
+  margin-top: 1rem;
+}
+
+.services-call-to-action {
+  justify-items: center;
+}
