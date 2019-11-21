@@ -800,15 +800,15 @@ footer {
 }
 
 #twitter {
-  padding: 10px 13px;
+  padding: 12px 12px;
 }
 
 #google {
-  padding: 10px 9px;
+  padding: 11px 10px;
 }
 
 #youtube {
-  padding: 10px 10px;
+  padding: 12px 12px;
 }
 
 #rights {
@@ -818,4 +818,99 @@ footer {
 
 a {
   text-decoration: none;
+}
+
+.client-stories {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 100vh;
+  width: 99vw;
+  background-color: #20013ab0;
+  color: white;
+}
+
+.stories-call-to-action {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.stories-footer {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+  width: 60vw;
+  margin-bottom: 50px;
+  border-top: 1px solid #7c7979;
+  padding-top: 20px;
+}
+
+.stories-footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+}
+
+.stories-subtitle {
+  color: #7c7979;
+  font-size: 0.8em;
+}
+
+.stories-footer-button {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+#btn-wave-stories {
+  color: white;
+  background-color: #3d37f1;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+}
+
+#comment {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+#learn {
+  font-size: 0.8em;
+  color: #7c7979;
+  margin-bottom: 10px;
+}
+
+#name {
+  color: #3d37f1;
+}
+
+#title {
+  font-size: 0.8em;
+}
+
+#grade {
+  background-color: rgb(255, 115, 0);
+  border-radius: 50%;
+  padding: 5px;
 }
