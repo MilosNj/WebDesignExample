@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 
 *,
 *::before,
@@ -402,7 +402,7 @@ body {
 }
 
 #colored-li::after {
-  content: '';
+  content: "";
   display: block;
   margin: 0;
   padding: 0;
@@ -433,6 +433,8 @@ body {
 }
 
 .success {
+  margin-top: 20%;
+  margin-bottom: 20%;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -504,6 +506,7 @@ body {
   font-weight: 500;
   padding-bottom: 30px;
   color: #534d4d;
+  margin-top: 2%;
 }
 
 .text-1 {
