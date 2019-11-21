@@ -535,7 +535,7 @@ body {
 }
 
 .skills-example {
-  background-color: #69529f;
+  background-color: #131b7c;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -564,6 +564,18 @@ body {
 .skills-subtitle {
   font-size: 0.8em;
   color: rgb(209, 207, 207);
+}
+
+#design {
+  background-color: #131b7c;
+}
+
+#sketch {
+  background-color: #f36f21;
+}
+
+#testing {
+  background-color: #a5a2f6;
 }
 
 .workflow {
@@ -657,13 +669,48 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  background-color: #3d37f1;
   height: 60px;
   width: 60px;
   padding-right: 4px;
   border-radius: 50%;
   outline: none;
   border: none;
+}
+
+#one {
+  background-color: #3d37f1;
+}
+
+#two {
+  background-color: #9997df;
+}
+
+#three {
+  background-color: #ffba3f;
+}
+
+#four {
+  background-color: #e66e6e;
+}
+
+#five {
+  background-color: #66659f;
+}
+
+#six {
+  background-color: #f17637;
+}
+
+#seven {
+  background-color: #37f1be;
+}
+
+#eight {
+  background-color: #f137e5;
+}
+
+#nine {
+  background-color: #f13d37;
 }
 
 .blog {
@@ -830,7 +877,7 @@ a {
   justify-content: space-between;
   height: 100vh;
   width: 99vw;
-  background-color: #20013ab0;
+  background-color: #0c0f32;
   color: white;
 }
 
@@ -868,7 +915,7 @@ a {
 }
 
 .stories-subtitle {
-  color: #7c7979;
+  color: #ffffff33;
   font-size: 0.8em;
 }
 
@@ -900,12 +947,12 @@ a {
 
 #learn {
   font-size: 0.8em;
-  color: #7c7979;
+  color: #ffffff33;
   margin-bottom: 10px;
 }
 
 #name {
-  color: #3d37f1;
+  color: #8f8bff;
 }
 
 #title {
